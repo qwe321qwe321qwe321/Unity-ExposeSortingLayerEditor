@@ -1,0 +1,15 @@
+{
+    "name": "com.pedev.unity-expose-sorting-layer-editor",
+    "version": "1.0.0",
+    "displayName": "Unity-ExposeSortingLayerEditor",
+    "description": "Expose the Sorting Layer settings for MeshRenderer and SkinnedMeshRenderer components in the Unity Inspector.",
+    "keywords": [
+        "editor",
+        "unity"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "PeDev",
+        "url": "https://github.com/qwe321qwe321qwe321/ExposeSortingLayerEditor"
+    }
+}
