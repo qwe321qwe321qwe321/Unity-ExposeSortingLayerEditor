@@ -13,7 +13,7 @@ https://github.com/qwe321qwe321qwe321/ExposeSortingLayerEditor.git
 ```
 
 ## How it works
-This repo improves upon [the original gist](https://gist.github.com/sinbad/bd0c49bc462289fa1a018ffd70d806e3) by inheriting the `MeshRendererEditor` and `SkinnedMeshRendererEditor` classes instead of the Editor class. And using the internal methods to build the editor GUI to have a better look and compatibility with Unity.
+This repository improves upon [the original gist](https://gist.github.com/sinbad/bd0c49bc462289fa1a018ffd70d806e3) by inheriting the `MeshRendererEditor` and `SkinnedMeshRendererEditor` classes instead of the `Editor` class. It uses internal methods to build the editor GUI, resulting in a better look and improved compatibility with Unity.
 
 To access the `MeshRendererEditor` and `SkinnedMeshRendererEditor` internal classes, I added the `ExposeSortingLayerEditor.asmdef`, which is actually the `Unity.InternalAPIEngineBridge.017` assembly. (The `017` is arbitrary; you can change it to any number under 024.)
 
